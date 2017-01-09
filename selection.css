@@ -1,0 +1,62 @@
+body{
+	background-color: #D6E4E7;
+}
+
+#logo {
+	background-color: #D6E4E7;
+	text-align: center;
+	font-size: 50px;
+	margin: 20px;
+	margin-top: -50px;
+	text-decoration: underline;
+}
+
+#container{
+	background-color: #F3F5F7;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #5A9BF6;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -50px;
+	
+}
+
+#header {
+	background-color: #F3F5F7;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+	text-decoration: underline;
+}
+
+#content{
+	padding: 0;
+}
+
+#Tour{
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80%;
+	height: 110px;
+	font-size: 55px;
+	background-color: #94C6F9;
+}
+
+#footer{
+	clear: both;
+	padding-top: 30px;
+}
+
+#back{
+	position: relative;
+	left: 520px;
+	margin: 20px;
+	width: 230px;
+	height: 80px;
+	font-size: 35px;
+	background-color: #94C6F9;
+}

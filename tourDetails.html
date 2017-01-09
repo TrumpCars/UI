@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>TourDetails</title>
+		<link rel="stylesheet" type="text/css" href="tourDetails.css" />
+	</head>
+	
+	<body>
+		<div id="logo">
+			<h1>Trump Cars</h1>
+		</div>
+		<div id="container">
+			<div id="header">
+				<h1>Tour Details</h1>
+			</div>
+			<div id="content">
+				<div id="object">
+					<font size="5">Number of Persons: </font>
+					<input type="number" name="tourPersons" min="1" max="9" value="1"><br>
+				</div>
+				<div id="object">
+					<font size="5">Leavingspot: </font>
+					<select name="top5">
+						<option>Hauptbahnhof</option>
+						<option>Kroepcke</option>
+						<option>Meyers Garten</option>
+						<option>Anderter Bahnhof</option>
+						<option>Doehrener McDonalds</option>
+					</select><br>
+				</div>
+				<div id="object">
+					<font size="5">Date: </font>
+					<input type="date" name="tourDate" value="YYYY-MM-DD"><br>
+				</div>
+				<div id="object">
+					<font size="5">Time: </font>
+					<input type="time" name="tourTime" value="HH-MM"><br>
+				</div>
+				<div id="object">
+					<font size="5">Payment: </font>
+					<select name="top5">
+						<option>Pay-Pal</option>
+						<option>Barzahlung</option>
+					</select><br>
+				</div>
+				<button type="submit" id="order">Order</button>
+			</div>
+			<div id="footer">
+				<button id="back">Back</button>
+			</div>
+		</div>
+	</body>
+</html>
